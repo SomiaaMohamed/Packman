@@ -6,8 +6,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 public class Level1 extends JPanel{
-	private JFrame window = new JFrame("¨Packman");
-	private  ImageIcon background = new ImageIcon("images//background.png");
+	private JFrame window = new JFrame("ï¿½Packman");
+	private  ImageIcon iamgeBackground = new ImageIcon("images//background.png");
 	
 	public Level1() {
 		
@@ -18,7 +18,7 @@ public class Level1 extends JPanel{
 	}
 	
 @Override	public void paint(Graphics g) {
-		g.drawImage(background.getImage(), 0, 0, null);
+		g.drawImage(iamgeBackground.getImage(), 0, 0, null);
 	}
 
 }
